@@ -1,13 +1,9 @@
 @import "base/base";
 
-@import "/src/pages/Home/home",
-        "/src/pages/Sign-in/sign-in",
-        "/src/pages/User/user";
+@import "/src/pages/Home/home", "/src/pages/SignIn/signin",
+  "/src/pages/User/user";
 
-@import "/src/components/Banner/banner",
-        "/src/components/Button/button",
-        "/src/components/Feature/feature",
-        "/src/components/Footer/footer",
-        "/src/components/Form/form",
-        "/src/components/Header/header";
-        
+@import "/src/components/Account/account", "/src/components/Banner/banner",
+  "/src/components/Button/button", "/src/components/Feature/feature",
+  "/src/components/Footer/footer", "/src/components/Form/form",
+  "/src/components/Header/header";
