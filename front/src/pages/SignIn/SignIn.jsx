@@ -13,7 +13,7 @@ const SignIn = () => {
       setErrorMessage("Server is not responding, please try again later");
     } else if (loginError) {
       setErrorMessage(
-        "Wrong credentials, please check your email and password"
+        "Wrong credentials, please check your username and password"
       );
     }
   }, [loginError]);

@@ -1,37 +1,40 @@
 .sign-in-button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    border-color: #00bc77;
-    background-color: #00bc77;
-    color: #fff;
-  }
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  cursor: pointer;
+}
 
-  .edit-button {
-    border-color: #00bc77;
-    background-color: #00bc77;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px;
-  }
+.edit-button {
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
 
+.transaction-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width: 720px) {
   .transaction-button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    border-color: #00bc77;
-    background-color: #00bc77;
-    color: #fff;
+    width: 200px;
   }
-
-  @media (min-width: 720px) {
-    .transaction-button {
-      width: 200px;
-    }
-  }
+}
