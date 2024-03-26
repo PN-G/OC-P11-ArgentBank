@@ -22,7 +22,6 @@ export const getUserData = createAsyncThunk(
       if (error.response && error.response.data.message) {
         return rejectWithValue(error.response.data.message);
       } else {
-        console.log(error.response);
         return rejectWithValue(error.message);
       }
     }
@@ -32,8 +31,6 @@ export const getUserData = createAsyncThunk(
 export const updateUserName = createAsyncThunk(
   "user/changeUserName",
   async ({ token, newUserName }, { rejectWithValue }) => {
-    console.log("clic"), console.log(token);
-    console.log(newUserName);
     const config = {
       headers: {
         "Content-Type": "application/json",
